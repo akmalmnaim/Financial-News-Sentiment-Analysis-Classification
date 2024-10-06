@@ -123,7 +123,3 @@ Proyek ini menunjukkan pentingnya analisis sentimen dalam memahami dampak berita
 
 ---
 
-Catatan:
-
-- Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan.
-- Jika terdapat penjelasan yang harus menyertakan kode, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode proyek, cukup bagian yang ingin dijelaskan saja.
