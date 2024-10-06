@@ -9,9 +9,6 @@ Proyek ini bertujuan untuk melakukan analisis sentimen terhadap berita keuangan 
 - Sentimen pasar yang terdistorsi dapat memengaruhi keputusan investasi dan berpotensi menyebabkan kerugian finansial.
 - Dengan menggunakan analisis sentimen, investor dapat mengambil keputusan yang lebih tepat berdasarkan data yang tersedia.
 
-**Referensi:**
-
-- Sentiment Analysis in Financial Markets: A Survey
 
 ## Business Understanding
 
