@@ -389,10 +389,23 @@ Berikut ini adalah Visualisasi dari `Confusion Matrix`:
 <br>
 
 Berdasarkan visualisasi data diatas, hasilnya dapat dirincikan sebagai berikut:
--True Positive (TP): Nilai 447 pada sel kanan bawah. Ini berarti ada 447 data yang sebenarnya positif dan berhasil diprediksi sebagai positif.
--True Negative (TN): Nilai 543 pada sel kiri atas. Ini berarti ada 543 data yang sebenarnya negatif dan berhasil diprediksi sebagai negatif.
--False Positive (FP): Nilai 20 pada baris pertama, kolom kedua. Ini berarti ada 20 data yang sebenarnya negatif tetapi salah diprediksi sebagai netral.
--False Negative (FN): Nilai 29 pada baris ketiga, kolom pertama. Ini berarti ada 29 data yang sebenarnya positif tetapi salah diprediksi sebagai negatif.
+-True Positive (TP):
+-510 data yang sebenarnya netral berhasil diprediksi sebagai netral.
+-454 data yang sebenarnya positif berhasil diprediksi sebagai positif.
+-True Negative (TN): 539 data yang sebenarnya negatif berhasil diprediksi sebagai negatif.
+-False Positive (FP):
+-20 data yang sebenarnya negatif salah diprediksi sebagai netral.
+-16 data yang sebenarnya negatif salah diprediksi sebagai positif.
+-52 data yang sebenarnya netral salah diprediksi sebagai positif.
+-83 data yang sebenarnya positif salah diprediksi sebagai netral.
+-False Negative (FN):
+-18 data yang sebenarnya netral salah diprediksi sebagai negatif.
+-32 data yang sebenarnya positif salah diprediksi sebagai negatif.
+-Interpretasi:
+
+-Model cukup baik dalam mengklasifikasikan data negatif: Sebagian besar data negatif berhasil diklasifikasikan dengan benar.
+-Model juga cukup baik dalam mengklasifikasikan data positif: Sebagian besar data positif berhasil diklasifikasikan dengan benar.
+-Model masih kesulitan dalam mengklasifikasikan data netral: Terdapat cukup banyak kesalahan klasifikasi pada data netral, baik diklasifikasikan sebagai negatif maupun positif.
 
 ### Hasil Proyek Berdasarkan Metrik Evaluasi pada model Terbaik
 
