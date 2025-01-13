@@ -154,33 +154,33 @@ didapatkan data tidak memiliki missing values
 
 -```python
 
-# Preprocessing function
-
-def preprocess_text(text): # Mengubah teks menjadi huruf kecil
-text = text.lower()
-
-            # Menghapus tanda baca, angka, dan karakter spesial
-            text = re.sub(r'[^a-z\s]', '', text)
-
-            # Tokenisasi
-            tokens = word_tokenize(text)
-
-            # Menghapus stopwords
-            stop_words = set(stopwords.words('english'))
-            tokens = [word for word in tokens if word not in stop_words]
-
-            # Lemmatization (atau bisa gunakan stemming)
-            lemmatizer = WordNetLemmatizer()
-            tokens = [lemmatizer.lemmatize(word) for word in tokens]
-
-            # Menggabungkan kembali token menjadi kalimat
-            return ' '.join(tokens)
-
-        # Terapkan preprocessing ke kolom Document
-        df['cleaned_Document'] = df['Document'].apply(preprocess_text)
-
-        # Menampilkan beberapa data setelah preprocessing
-        print(df[['Document', 'cleaned_Document']].head())
+      # Preprocessing function
+      
+      def preprocess_text(text): # Mengubah teks menjadi huruf kecil
+      text = text.lower()
+      
+                  # Menghapus tanda baca, angka, dan karakter spesial
+                  text = re.sub(r'[^a-z\s]', '', text)
+      
+                  # Tokenisasi
+                  tokens = word_tokenize(text)
+      
+                  # Menghapus stopwords
+                  stop_words = set(stopwords.words('english'))
+                  tokens = [word for word in tokens if word not in stop_words]
+      
+                  # Lemmatization (atau bisa gunakan stemming)
+                  lemmatizer = WordNetLemmatizer()
+                  tokens = [lemmatizer.lemmatize(word) for word in tokens]
+      
+                  # Menggabungkan kembali token menjadi kalimat
+                  return ' '.join(tokens)
+      
+              # Terapkan preprocessing ke kolom Document
+              df['cleaned_Document'] = df['Document'].apply(preprocess_text)
+      
+              # Menampilkan beberapa data setelah preprocessing
+              print(df[['Document', 'cleaned_Document']].head())
 
 ````
 
