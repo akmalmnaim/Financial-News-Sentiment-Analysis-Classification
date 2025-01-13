@@ -152,7 +152,10 @@ didapatkan data tidak memiliki missing values
 
 2. melakukan preprocessing untuk membersihkan teks
 
--```python # Preprocessing function
+-```python
+
+# Preprocessing function
+
 def preprocess_text(text): # Mengubah teks menjadi huruf kecil
 text = text.lower()
 
